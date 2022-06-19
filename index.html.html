@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h3 {
+  text-align: center;
+}
+    body {
+  background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/287022347_588120945964102_1893252366791402523_n.png?stp=dst-png_s261x260&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHeegxmnKyBhx6wGAotqWWd_EkEd790Jx78SQR3v3QnHhwEsldQ5kVqEFhM_04EnhLweyeO6QlKSxak-X4vIZIR&_nc_ohc=JFqu66SO7qIAX9gIzww&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLacTcK1fm4ynQr5bQlITy8NVPbu8B0insrpExfjCTacQ&oe=62CF2347');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+
+   <h3 style="color:rgb(206, 240, 13);">GOLDEN KING'S LECHON</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">PRODUCT/SERVICES</button>
+  <button class="tablinks" onclick="openCity(event, 'GALLERY')">GALLERY</button>
+  <button class="tablinks" onclick="openCity(event, 'ABOUT US')">ABOUT US</button>
+  <button class="tablinks" onclick="openCity(event, 'TESTIMONALIST')">TESTIMONALIST</button>
+</div>
+
+<div id="PRODUCT/SERVICES" class="tabcontent">
+    <h3 style="color:rgb(206, 240, 13);">PRODUCT/SERVICES</h3>
+  <p style="color:rgb(206, 255, 30);">Lechon de cebu</p>
+  <p style="color:rgb(206, 255, 30);">ther are two kinds of our product first one is Lechon is roast suckling pig adapted from Spanish cuisine. In this version, the pig is filled with spices such as lemongrass, bay leaves and chili before roasting.</p>
+  <p style="color:rgb(206, 255, 30);">Price 8,000,00 php</p>
+  
+  <img src="https://www.lutongpinoyrecipe.com/wp-content/uploads/2021/01/lutong-pinoy-lechon-baboy-02.jpg" width="460" height="345">
+  <p style="color:rgb(206, 255, 30);">Lechon de cebu</p>
+  <p style="color:rgb(206, 255, 30);">the two is kutsinilyo.kutsinilyo is ca pork meat that cook into the oven</p>
+  <p style="color:rgb(206, 255, 30);">Price 5,000,00 php</p>
+  
+  <p3><img src="https://cdn.phonebooky.com/blog/wp-content/uploads/2021/08/18141835/222704352_333908848449096_6416798470214442712_n.jpg" width="460" height="345"></p3>
+<br>
+<button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">FEATURES</button> 
+<button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">GALLERY</button> 
+<button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">PLANS</button>
+<button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">PURCHASE</button>
+<button class="tablinks" onclick="openCity(event, 'PRODUCT/SERVICES')">CONFIRMATION</button>
+
+
+  </div>
+
+<div id="GALLERY" class="tabcontent">
+    <h3 style="color:rgb(206, 240, 13);">GALLERY</h3>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    /* The grid: Four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+    
+    /* Style the images inside the grid */
+    .column img {
+      opacity: 0.8; 
+      cursor: pointer; 
+    }
+    
+    .column img:hover {
+      opacity: 1;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* The expanding image container */
+    .container {
+      position: relative;
+      display: none;
+    }
+    
+    /* Expanding image text */
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+    
+    /* Closable button inside the expanded image */
+    .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div style="text-align:center">
+      <p style="color:rgb(206, 255, 30);">Click on the images below:</p>
+    </div>
+    
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="https://www.lutongpinoyrecipe.com/wp-content/uploads/2021/01/lutong-pinoy-lechon-baboy-02.jpg" alt="Lechon" style="width:100%" height="200" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://cdn.phonebooky.com/blog/wp-content/uploads/2021/03/23162911/cochinillo_casa-armasFINAL.jpg" alt="kutsinilyo" style="width:100%" height="200" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://www.thefooddictator.com/wp-content/uploads/2019/01/cebulechon.jpg" alt="Lechon" style="width:100%" height="200" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://cdn.phonebooky.com/blog/wp-content/uploads/2020/11/24020553/cochinillo-from-crisostomo.jpg" alt="kutsinilyo" style="width:100%" height="200" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+    
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+    
+  </div>
+  
+  
+<div id="ABOUT US" class="tabcontent">
+    <h3 style="color:rgb(206, 240, 13);">ABOUT US</h3>
+  <p style="color:rgb(233, 255, 30);">GOLDEN KING' LECHON is a dish consisting of roast suckling pig. It is commonly used in the Spanish cuisine of Castile, with the variants of native and large white being the most popular ones, although also popular in CEBU and in some places in the regions of Zamboanga city and dipolog city. This oven dish is traditionally prepared in an earthenware pot and served hot with a crispy crust. It is recommended to combine cochinillo asado with wine.</p>
+  <h3 style="color:rgb(206, 240, 13);">CONTACT US</h1>
+  <p><a href="https://www.facebook.com/dante.quinteroiii">Visit us on facebook!!</a></p>
+  <p style="color:rgb(233, 255, 30);">CALL ME:+639381400500</p>
+  <img src="http://cdn.onlinewebfonts.com/svg/img_504373.png"  width="500 " height="300">
+</div>
+
+<div id="TESTIMONALIST" class="tabcontent">
+    <h3 style="color:rgb(206, 240, 13);">TESTIMONALIST</h3>
+    <p><video width="100%" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+      </video>
+      
+      <p>
+      Video courtesy of 
+      <a href="https://i.ytimg.com/an_webp/_oCuMBO8O8Q/mqdefault_6s.webp?du=3000&sqp=CPDQpZUG&rs=AOn4CLAXVuDOz4dubX4kmCCweZIAlFsvfw" target="_blank">TESTIMONALIST 01</a>.
+      </p>
+      <p><video width="100%" controls>
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML video.
+      </video>
+      
+      <p>
+      Video courtesy of 
+      <a href="https://i.ytimg.com/an_webp/7LfxDihezAE/mqdefault_6s.webp?du=3000&sqp=CMucupUG&rs=AOn4CLBO0FMk85fGWPD90DDsAp4TaOO3ww" target="_blank">TESTIMONALIST 02</a>.
+      </p>
+  </div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<footer>
+   <h1 style="color:black">PRIVACY AND POLICY</h1></script>
+</body>
+</html> 
